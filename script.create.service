@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Copy Service File
+sudo cp dftraining.service /lib/systemd/system/dftraining.service
+
+# Reload New Service
+sudo systemctl daemon-reload
+
+#Enable 
+sudo systemctl enable dftraining.service 
+
+#Start
+sudo systemctl start dftraining.service 
+
+#Check
+sudo systemctl status dftraining.service 
