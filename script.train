@@ -1,0 +1,22 @@
+#!/bin/bash
+ 
+home=/home/bindows/Projects/faceswap
+target=keyden  
+
+#while true
+#do
+ echo "${home}/faceswap.py train -A data/${target}/photo -B data/face -m data/${target}/model_villian  -t villain -bs 16 -s 330 -w -nl"
+# sleep 10
+#done
+
+pip3 install tensorflow-gpu==1.14.0
+pip3 install -r requirements_cpu.txt
+
+#python3.7 ${home}/faceswap.py train -A "data/${target}/photo" -B "data/face" -m "data/${target}/model_villian"  -t 'villain' -bs 16 -s 330 -w -nl
+
+
+
+python3 --version
+python3.7 --version
+#python3.7.11 --version
+python3.8 --version

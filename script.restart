@@ -1,0 +1,3 @@
+sudo service dftraining restart
+
+sudo journalctl -f -u dftraining.service
