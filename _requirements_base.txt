@@ -16,4 +16,4 @@ git+https://github.com/deepfakes/nvidia-ml-py3.git
 #nvidia-ml-py3
 pywin32>=227 ; sys_platform == "win32"
 pynvx==1.0.0 ; sys_platform == "darwin"
-gast==0.4.0
+gast
